@@ -92,3 +92,140 @@ color: #FFFFFF;
    color: #FFFFFF;
 }
 
+.top-menu {
+   height: 65px;
+}
+
+.top-menu__link {
+   width: 47px;
+   height: 20px;
+   font-family: 'Lora';
+   text-decoration: none;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+/* identical to box height, or 143% */
+   text-align: center;
+   color: #768088;
+}
+
+.main-content {
+   height: 1255px;
+   background: #F7F7F7;
+   border-radius: 0px;
+}
+
+.main-content__toptext {
+   width: 161px;
+   height: 27px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+/* identical to box height, or 135% */
+
+   text-align: center;
+   letter-spacing: 2px;
+
+   color: #2E2E2E;
+}
+
+.main-content__line {
+   height: 1px;
+   background: #DEDEDE;
+   border-radius: 0px;
+   width: 188px;
+}
+
+.main-content__bigpost {
+   height: 280px;
+   width: 460px;
+   border-radius: 0px;
+}
+
+.bigpost__image {
+  position: absolute;
+}
+
+.bigpost__headline {
+   position: relative;
+   height: 30px;
+   width: 204px;
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 30px;
+/* identical to box height, or 111% */
+   color: #FFFFFF;
+}
+
+.bigpost__head {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.bigpost__text {
+   position: relative;
+   width: 316px;
+   height: 25px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 25px;
+/* identical to box height, or 179% */
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.bigpost__awatar {
+   position: relative;
+   height: 26px;
+   width: 26px;
+   border-radius: 15px;
+}
+
+.bigpost__autor {
+   position: relative;
+   width: 61px;
+   height: 35px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 35px;
+/* identical to box height, or 292% */
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.bigpost__date {
+   position: relative;
+   width: 108px;
+   height: 35px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 35px;
+/* identical to box height, or 292% */
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.bigpost__button {
+   position: relative;
+   width: 87px;
+   height: 26px;
+   border-radius: 2px;
+   background: #DD783F;
+   border-color: #DD783F;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 13px;
+/* identical to box height, or 108% */
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
