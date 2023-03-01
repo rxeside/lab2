@@ -1,0 +1,356 @@
+.header_mountain {
+   background-image: url("D:/ispring/ispringg/web/lab2/images/headerbg.png");
+   background-size: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 1440px;
+   height: 500px;
+border-radius: 0px;
+}
+
+.header_logo {
+   position: absolute;
+   height: 26px;
+   left: 0%;
+   right: 90.21%;
+   top: 3px;
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 26px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+}
+
+.header__nav_home {
+   position: absolute;
+height: 20px;
+left: 0.21%;
+right: 84.44%;
+top: 10px;
+
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+text-decoration: none;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.header__nav_categories {
+   position: absolute;
+height: 20px;
+left: 12.05%;
+right: 16.95%;
+top: 10px;
+text-decoration: none;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+letter-spacing: 0.6px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.header__nav_about {
+   position: absolute;
+height: 20px;
+left: 32.69%;
+right: 24.69%;
+top: 10px;
+text-decoration: none;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 20px;
+/* identical to box height, or 182% */
+
+letter-spacing: 0.6px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.header__nav_contact {
+   position: absolute;
+height: 20px;
+left: 45.41%;
+right: 20.41%;
+top: 10px;
+text-decoration: none;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+letter-spacing: 0.6px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.header__nav {
+   position: absolute;
+height: 40px;
+left: 59.94%;
+right: 0%;
+top: 0px;
+}
+
+.header__frame {
+   position: absolute;
+height: 40px;
+left: 17.36%;
+right: 17.36%;
+top: 17px;
+}
+
+.header__center {
+   position: absolute;
+height: 159px;
+left: 17.36%;
+right: 17.36%;
+top: 184px;
+}
+
+.header__center_huge {
+   position: absolute;
+width: 498px;
+height: 51px;
+left: calc(50% - 498px/2);
+top: -7px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 51px;
+/* identical to box height, or 102% */
+text-align: center;
+letter-spacing: 2px;
+color: #FFFFFF;
+}
+
+.header__center_span {
+   position: absolute;
+width: 504px;
+height: 20px;
+left: calc(50% - 504px/2);
+top: 64px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height, or 118% */
+text-align: center;
+color: rgba(255, 255, 255, 0.63);
+}
+
+.header__center_buttonframe {
+   position: absolute;
+height: 44px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+height: 44px;
+width: 167px;
+left: 387px;
+top: 115px;
+border-radius: 0px;
+
+background: #DD783F;
+border-radius: 3px;
+}
+
+.header__center_button {
+   position: absolute;
+width: 105px;
+height: 20px;
+left: calc(50% - 105px/2);
+top: 12px;
+
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+text-align: center;
+color: #FFFFFF;
+}
+
+.nav {
+   position: absolute;
+height: 65px;
+left: 0%;
+right: 0%;
+top: 500px;
+}
+
+.nav__frame {
+   position: absolute;
+   height: 46px;
+   left: 16.67%;
+   right: 16.67%;
+   top: 9px;
+   
+}
+
+.mainnav_Nature {
+   position: absolute;
+width: 47px;
+height: 20px;
+left: calc(50% - 47px/2);
+top: 13px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+text-align: center;
+color: #768088;
+
+position: absolute;
+height: 46px;
+left: 1.04%;
+right: 84.48%;
+top: 0px;
+
+}
+
+.mainnav_Photography {
+   position: absolute;
+width: 90px;
+height: 20px;
+left: calc(50% - 90px/2 - 0.5px);
+top: 13px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+text-align: center;
+color: #768088;
+
+position: absolute;
+height: 46px;
+left: 17.71%;
+right: 67.81%;
+top: 0px;
+}
+
+.mainnav_Relaxation {
+   position: absolute;
+   width: 69px;
+   height: 20px;
+   left: calc(50% - 69px/2);
+   top: 13px;
+   
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   /* identical to box height, or 143% */
+   text-align: center;
+   color: #768088;
+
+   position: absolute;
+height: 46px;
+left: 34.38%;
+right: 51.15%;
+top: 0px;
+
+}
+
+.mainnav_Vacation {
+   position: absolute;
+   width: 57px;
+   height: 20px;
+   left: calc(50% - 57px/2);
+   top: 13px;
+   
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   /* identical to box height, or 143% */
+   text-align: center;
+   color: #768088;
+
+   position: absolute;
+height: 46px;
+left: 51.04%;
+right: 34.48%;
+top: 0px;
+}
+
+.mainnav_Travel {
+   position: absolute;
+   width: 43px;
+   height: 20px;
+   left: calc(50% - 43px/2);
+   top: 13px;
+   
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   /* identical to box height, or 143% */
+   text-align: center;
+   color: #768088;
+   
+   position: absolute;
+height: 46px;
+left: 67.71%;
+right: 17.81%;
+top: 0px;
+}
+
+.mainnav_Adventure {
+   position: absolute;
+width: 69px;
+height: 20px;
+left: calc(50% - 69px/2);
+top: 13px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+text-align: center;
+color: #768088;
+
+position: absolute;
+height: 46px;
+left: 84.38%;
+right: 1.15%;
+top: 0px;
+
+}
+
