@@ -8,6 +8,11 @@
    border-radius: 0px;
 }
 
+.body {
+   display: flex;
+   flex-direction: column;
+}
+
 .top-block__menu {
 
 }
@@ -316,11 +321,14 @@ color: #FFFFFF;
 }
 
 .bottom-content {
+   position: absolute;
+   bottom: -2200px ;
    width: 1440px;
    height: 89px;
+
 }
 
-.bottom-content__bg {
+.bottom-content__background       {
    position: absolute;
    width: 1440px;
    height: 89px;
