@@ -1,5 +1,5 @@
 .top-block {
-   background-image: url("D:/ispring/ispringg/web/lab2/images/headerbg.png");
+   background-image: url("../images/headerbg.png");
    background-size: no-repeat;
    background-position: center;
    background-size: cover;
@@ -228,4 +228,136 @@ color: #FFFFFF;
 /* identical to box height, or 108% */
    text-transform: uppercase;
    color: #FFFFFF;
+}
+
+.main-content__middletext {
+   width: 136px;
+   height: 27px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+/* identical to box height, or 135% */
+   text-align: center;
+   letter-spacing: 2px;
+   color: #2E2E2E;
+}
+
+.main-content__smallpost {
+   width: 296px;
+   height: 291px;
+}
+
+.smallpost__image {
+   width: 296px;
+   height: 150px;
+   border-radius: 0px;
+}
+
+.smallpost__headline {
+   width: 133px;
+   height: 21px;
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+/* identical to box height, or 131% */
+   color: #101315;
+}
+
+.smallpost__text {
+   width: 255px;
+   height: 19px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 19px;
+/* identical to box height, or 146% */
+   color: #7A7A7A;
+}
+
+.smallpost__line {
+   width: 296px;
+   height: 1px;
+   background: #EFEFEF;
+}
+
+.smallpost__awatar {
+   width: 26px;
+   height: 26px;
+   border-radius: 15px;
+}
+
+.smallpost__autor {
+   width: 76px;
+   height: 35px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 35px;
+/* identical to box height, or 318% */
+   color: #999999;
+}
+
+.smallpost__date {
+   width: 58px;
+   height: 35px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 35px;
+/* identical to box height, or 292% */
+   color: #999999;
+}
+
+.bottom-content {
+   width: 1440px;
+   height: 89px;
+}
+
+.bottom-content__bg {
+   position: absolute;
+   width: 1440px;
+   height: 89px;
+   color: #4D565D;
+}
+
+.bottom-content__logo {
+   position: relative;
+   width: 92px;
+   height: 26px;
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 26px;
+/* identical to box height, or 100% */
+   color: #FFFFFF;
+}
+
+.bottom-content__nav {
+   width: 640px;
+   height: 32px;
+}
+
+.nav__link {
+   position: relative;
+   text-decoration: none;
+   width: 37px;
+   height: 26px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 26px;
+/* identical to box height, or 236% */
+   text-align: right;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.6);
 }
