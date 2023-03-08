@@ -1,5 +1,5 @@
 .top-block {
-   background-image: url("../images/headerbg.png");
+   background-image: url("../images/header_background.png");
    background-size: no-repeat;
    background-position: center;
    background-size: cover;
@@ -32,16 +32,16 @@ color: #FFFFFF;
 }
 
 .nav__link {
-height: 20px;
-font-family: 'Oxygen';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 20px;
+   height: 20px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
 /* identical to box height, or 167% */
-text-decoration: none;
-letter-spacing: 0.6px;
-color: #FFFFFF;
+   text-decoration: none;
+   letter-spacing: 0.6px;
+   color: #FFFFFF;
 }
 
 
