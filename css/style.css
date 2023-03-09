@@ -1,23 +1,23 @@
-.top-block {
+.top-block
+{
    background-image: url("../images/header_background.png");
    background-size: no-repeat;
    background-position: center;
    background-size: cover;
    width: 1440px;
    height: 500px;
-   border-radius: 0px;
 }
 
-.body {
+.body
+{
    display: flex;
    flex-direction: column;
 }
 
-.top-block__menu {
 
-}
 
-.menu__logo {
+.menu__logo 
+{
    height: 26px;
    top: 3px;
    font-family: 'Lora';
@@ -25,38 +25,39 @@
    font-weight: 400;
    font-size: 26px;
    line-height: 26px;
-/* identical to box height, or 100% */
-
-
-color: #FFFFFF;
+   font: 400/1 'Lora';
+   color: #FFFFFF;
 }
 
-.nav__link {
+.nav__link
+{
    height: 20px;
    font-family: 'Oxygen';
    font-style: normal;
    font-weight: 400;
    font-size: 12px;
    line-height: 20px;
-/* identical to box height, or 167% */
    text-decoration: none;
    letter-spacing: 0.6px;
    color: #FFFFFF;
 }
 
 
-.menu__nav nav {
+.menu__nav
+{
    height: 40px;
    left: 59.94%;
    right: 0%;
    top: 0px;
 }
 
-.top-block__center {
+.top-block__center
+{
    height: 159px;
 }
 
-.center__main {
+.main__title
+{
    width: 498px;
    height: 51px;
    font-family: 'Lora';
@@ -69,7 +70,8 @@ color: #FFFFFF;
    color: #FFFFFF;
 }
 
-.center__slogan {
+.main__slogan
+{
    width: 504px;
    height: 20px;
    font-family: 'Oxygen';
@@ -81,7 +83,8 @@ color: #FFFFFF;
    color: rgba(255, 255, 255, 0.63);
 }
 
-.top-block__button {
+.main__button
+{
    border-radius: 3px;
    border-color: #DD783F;
    background: #DD783F;
@@ -92,16 +95,17 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 13px;
    line-height: 20px;
-/* identical to box height, or 154% */
    text-align: center;
    color: #FFFFFF;
 }
 
-.top-menu {
+.top-menu
+{
    height: 65px;
 }
 
-.top-menu__link {
+.top-menu__link
+{
    width: 47px;
    height: 20px;
    font-family: 'Lora';
@@ -110,18 +114,19 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
-/* identical to box height, or 143% */
    text-align: center;
    color: #768088;
 }
 
-.main-content {
+.main-content
+{
    height: 1255px;
    background: #F7F7F7;
    border-radius: 0px;
 }
 
-.main-content__toptext {
+.main-content__top-text
+{
    width: 161px;
    height: 27px;
    font-family: 'Oxygen';
@@ -129,32 +134,35 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 20px;
    line-height: 27px;
-/* identical to box height, or 135% */
-
    text-align: center;
    letter-spacing: 2px;
-
    color: #2E2E2E;
+
+   border-bottom: 1px solid rgb(151, 151, 151);
 }
 
-.main-content__line {
+.main-content__line
+{
    height: 1px;
    background: #DEDEDE;
    border-radius: 0px;
    width: 188px;
 }
 
-.main-content__bigpost {
+.main-content__big-post
+{
    height: 280px;
    width: 460px;
    border-radius: 0px;
 }
 
-.bigpost__image {
+.big-post__image
+{
   position: absolute;
 }
 
-.bigpost__headline {
+.big-post__headline
+{
    position: relative;
    height: 30px;
    width: 204px;
@@ -163,16 +171,17 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 27px;
    line-height: 30px;
-/* identical to box height, or 111% */
    color: #FFFFFF;
 }
 
-.bigpost__head {
+.big-post__head
+{
    text-decoration: none;
    color: #ffffff;
 }
 
-.bigpost__text {
+.big-post__text
+{
    position: relative;
    width: 316px;
    height: 25px;
@@ -181,18 +190,19 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 14px;
    line-height: 25px;
-/* identical to box height, or 179% */
    color: rgba(255, 255, 255, 0.7);
 }
 
-.bigpost__awatar {
+.big-post__awatar
+{
    position: relative;
    height: 26px;
    width: 26px;
    border-radius: 15px;
 }
 
-.bigpost__autor {
+.big-post__autor
+{
    position: relative;
    width: 61px;
    height: 35px;
@@ -201,11 +211,11 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 12px;
    line-height: 35px;
-/* identical to box height, or 292% */
    color: rgba(255, 255, 255, 0.7);
 }
 
-.bigpost__date {
+.big-post__date
+{
    position: relative;
    width: 108px;
    height: 35px;
@@ -214,11 +224,11 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 12px;
    line-height: 35px;
-/* identical to box height, or 292% */
    color: rgba(255, 255, 255, 0.7);
 }
 
-.bigpost__button {
+.big-post__button
+{
    position: relative;
    width: 87px;
    height: 26px;
@@ -230,12 +240,12 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 12px;
    line-height: 13px;
-/* identical to box height, or 108% */
    text-transform: uppercase;
    color: #FFFFFF;
 }
 
-.main-content__middletext {
+.main-content__middletext
+{
    width: 136px;
    height: 27px;
    font-family: 'Oxygen';
@@ -243,24 +253,28 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 20px;
    line-height: 27px;
-/* identical to box height, or 135% */
    text-align: center;
    letter-spacing: 2px;
    color: #2E2E2E;
+
+   border-bottom: 1px solid rgb(151, 151, 151);
 }
 
-.main-content__smallpost {
+.main-content__small-post
+{
    width: 296px;
    height: 291px;
 }
 
-.smallpost__image {
+.small-post__image
+{
    width: 296px;
    height: 150px;
    border-radius: 0px;
 }
 
-.smallpost__headline {
+.small-post__headline
+{
    width: 133px;
    height: 21px;
    font-family: 'Lora';
@@ -268,35 +282,39 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 16px;
    line-height: 21px;
-/* identical to box height, or 131% */
    color: #101315;
 }
 
-.smallpost__text {
+.small-post__text
+{
    width: 255px;
-   height: 19px;
+   height: 38px;
    font-family: 'Oxygen';
    font-style: normal;
    font-weight: 400;
    font-size: 13px;
    line-height: 19px;
-/* identical to box height, or 146% */
    color: #7A7A7A;
+
+   border-bottom: 1px solid rgb(151, 151, 151);
 }
 
-.smallpost__line {
+.small-post__line
+{
    width: 296px;
    height: 1px;
    background: #EFEFEF;
 }
 
-.smallpost__awatar {
+.small-post__awatar
+{
    width: 26px;
    height: 26px;
    border-radius: 15px;
 }
 
-.smallpost__autor {
+.small-post__autor
+{
    width: 76px;
    height: 35px;
    font-family: 'Oxygen';
@@ -304,11 +322,11 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 11px;
    line-height: 35px;
-/* identical to box height, or 318% */
    color: #999999;
 }
 
-.smallpost__date {
+.small-post__date
+{
    width: 58px;
    height: 35px;
    font-family: 'Oxygen';
@@ -316,26 +334,28 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 12px;
    line-height: 35px;
-/* identical to box height, or 292% */
    color: #999999;
 }
 
-.bottom-content {
+.bottom-content
+{
    position: absolute;
-   bottom: -2200px ;
+   bottom: -2000px ;
    width: 1440px;
    height: 89px;
 
 }
 
-.bottom-content__background       {
+.bottom-content__background
+{
    position: absolute;
    width: 1440px;
    height: 89px;
    color: #4D565D;
 }
 
-.bottom-content__logo {
+.bottom-content__logo
+{
    position: relative;
    width: 92px;
    height: 26px;
@@ -344,16 +364,17 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 26px;
    line-height: 26px;
-/* identical to box height, or 100% */
    color: #FFFFFF;
 }
 
-.bottom-content__nav {
+.bottom-content__nav
+{
    width: 640px;
    height: 32px;
 }
 
-.nav__link {
+.nav__link
+{
    position: relative;
    text-decoration: none;
    width: 37px;
@@ -363,9 +384,60 @@ color: #FFFFFF;
    font-weight: 400;
    font-size: 11px;
    line-height: 26px;
-/* identical to box height, or 236% */
    text-align: right;
    letter-spacing: 1px;
    text-transform: uppercase;
    color: rgba(255, 255, 255, 0.6);
+}
+
+.header
+{
+   width: 1440px;
+   height: 74px;
+   border-radius: 0px;
+}
+
+.header__logo
+{
+   height: 26px;
+   top: 3px;
+   font-family: 'Lora';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 26px;
+   color: #000000;
+}
+
+.header__nav
+{
+   height: 40px;
+   left: 59.94%;
+   right: 0%;
+   top: 0px;
+}
+
+.nav__element
+{
+   height: 20px;
+   font-family: 'Oxygen';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+   text-decoration: none;
+   letter-spacing: 0.6px;
+   color: #000000;
+}
+
+.big-image
+{
+   height: 534px;
+   width: 1440px;
+}
+
+.main-text
+{
+   width: 1440px;
+   height: 1706px;
 }
