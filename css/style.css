@@ -1,11 +1,8 @@
 .top-block
 {
-   background-image: url("../images/header_background.png");
-   background-size: no-repeat;
-   background-position: center;
+   background: url("../images/header_background.png") no-repeat center;
    background-size: cover;
-   width: 1440px;
-   height: 500px;
+   padding: 50px 5px;
 }
 
 .body
@@ -14,50 +11,28 @@
    flex-direction: column;
 }
 
-
 .menu__logo 
 {
-   height: 26px;
    top: 3px;
-   font-size: 26px;
-   line-height: 26px;
-   font: 400/1 'Lora';
+   font: 400 26px 'Lora';
    color: #FFFFFF;
 }
 
 .nav__link
 {
-   height: 20px;
-   font: 400 'Oxygen';
-   font-size: 12px;
-   line-height: 20px;
+   font: 400 12px/0.6 'Oxygen';
    text-decoration: none;
-   letter-spacing: 0.6px;
    color: #FFFFFF;
 }
 
 .menu__nav
 {
-   height: 40px;
-   left: 59.94%;
-   right: 0%;
-   top: 0px;
-}
-
-.top-block__center
-{
-   height: 159px;
+   padding: 20px 0px;
 }
 
 .main__title
 {
-   width: 498px;
-   height: 51px;
-   font: 400 'Lora';
-   font-family: 'Lora';
-   font-weight: 400;
-   font-size: 50px;
-   line-height: 51px;
+   font: 400 50px 'Lora';
    text-align: center;
    letter-spacing: 2px;
    color: #FFFFFF;
@@ -65,13 +40,7 @@
 
 .main__slogan
 {
-   width: 504px;
-   height: 20px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 17px;
-   line-height: 20px;
+   font: 400 17px/0.85 'Oxygen';
    text-align: center;
    color: rgba(255, 255, 255, 0.63);
 }
@@ -81,89 +50,50 @@
    border-radius: 3px;
    border-color: #DD783F;
    background: #DD783F;
-   width: 167px;
-   height: 44px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 13px;
-   line-height: 20px;
+   padding: 19px 45px;
+   font: 400 13px/0.65 'Oxygen';
    text-align: center;
    color: #FFFFFF;
 }
 
 .top-menu
 {
+   padding-top: 20px;
    height: 65px;
 }
 
 .top-menu__link
 {
-   width: 47px;
-   height: 20px;
-   font-family: 'Lora';
    text-decoration: none;
-   
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 20px;
+   font: 400 14px/0.7 'Lora';
    text-align: center;
    color: #768088;
 }
 
 .main-content
 {
-   height: 1255px;
    background: #F7F7F7;
-   border-radius: 0px;
 }
 
 .main-content__top-text
 {
-   width: 161px;
-   height: 27px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 27px;
+   font: 400 20px/0.74 'Oxygen';
    text-align: center;
    letter-spacing: 2px;
    color: #2E2E2E;
-
    border-bottom: 1px solid rgb(151, 151, 151);
-}
-
-.main-content__line
-{
-   height: 1px;
-   background: #DEDEDE;
-   border-radius: 0px;
-   width: 188px;
 }
 
 .main-content__big-post
 {
-   height: 280px;
-   width: 460px;
+   padding: 120px 5px;
    border-radius: 0px;
-}
-
-.big-post__image
-{
-  position: absolute;
 }
 
 .big-post__headline
 {
    position: relative;
-   height: 30px;
-   width: 204px;
-   font-family: 'Lora';
-   
-   font-weight: 400;
-   font-size: 27px;
-   line-height: 30px;
+   font: 400 27px/0.9 'Lora';
    color: #FFFFFF;
 }
 
@@ -176,127 +106,76 @@
 .big-post__text
 {
    position: relative;
-   width: 316px;
-   height: 25px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 25px;
+   font: 400 14px/0.56 'Oxygen';
    color: rgba(255, 255, 255, 0.7);
 }
 
 .big-post__awatar
 {
    position: relative;
-   height: 26px;
-   width: 26px;
    border-radius: 15px;
 }
 
 .big-post__autor
 {
    position: relative;
-   width: 61px;
-   height: 35px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 35px;
+   font: 400 12px/0.34 'Oxygen';
    color: rgba(255, 255, 255, 0.7);
+}
+
+.big-post__image {
+   position: absolute;
 }
 
 .big-post__date
 {
    position: relative;
-   width: 108px;
-   height: 35px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 35px;
+   font: 400 12px/0.34 'Oxygen';
    color: rgba(255, 255, 255, 0.7);
 }
 
 .big-post__button
 {
    position: relative;
-   width: 87px;
-   height: 26px;
+   padding: 10px 32px;
    border-radius: 2px;
    background: #DD783F;
    border-color: #DD783F;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 13px;
+   font: 400 12px/0.95 'Oxygen';
    text-transform: uppercase;
    color: #FFFFFF;
 }
 
 .main-content__middletext
 {
-   width: 136px;
-   height: 27px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 27px;
+   font: 400 20px/0.74 'Oxygen';
    text-align: center;
    letter-spacing: 2px;
    color: #2E2E2E;
-
    border-bottom: 1px solid rgb(151, 151, 151);
 }
 
 .main-content__small-post
 {
-   width: 296px;
-   height: 291px;
+   padding: 50px 5px;
 }
 
 .small-post__image
 {
-   width: 296px;
-   height: 150px;
    border-radius: 0px;
 }
 
 .small-post__headline
 {
-   width: 133px;
-   height: 21px;
-   font-family: 'Lora';
-   
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 21px;
+   font: 400 16px/0.76 'Lora';
    color: #101315;
 }
 
 .small-post__text
 {
-   width: 255px;
-   height: 38px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 13px;
-   line-height: 19px;
+   font: 400 13px/0.7 'Oxygen';
    color: #7A7A7A;
-
    border-bottom: 1px solid rgb(151, 151, 151);
-}
-
-.small-post__line
-{
-   width: 296px;
-   height: 1px;
-   background: #EFEFEF;
 }
 
 .small-post__awatar
@@ -308,72 +187,44 @@
 
 .small-post__autor
 {
-   width: 76px;
-   height: 35px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 11px;
-   line-height: 35px;
+   font: 400 11px/0.29 'Oxygen';
    color: #999999;
 }
 
 .small-post__date
 {
-   width: 58px;
-   height: 35px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 35px;
+   font: 400 12px/0.34 'Oxygen';
    color: #999999;
 }
 
 .bottom-content
 {
-   width: 1440px;
-   height: 89px;
+   padding: 30px 5px;
 }
 
 .bottom-content__background
 {
-   position: absolute;
-   width: 1440px;
-   height: 89px;
+   position: absolute; 
    color: #4D565D;
 }
 
 .bottom-content__logo
 {
    position: relative;
-   width: 92px;
-   height: 26px;
-   font-family: 'Lora';
-   
-   font-weight: 400;
-   font-size: 26px;
-   line-height: 26px;
+   font: 400 26px/1 'Lora';
    color: #FFFFFF;
 }
 
 .bottom-content__nav
 {
-   width: 640px;
-   height: 32px;
+   padding: 30px 0px;
 }
 
 .nav__link
 {
    position: relative;
    text-decoration: none;
-   width: 37px;
-   height: 26px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 11px;
-   line-height: 26px;
+   font: 400 11px/0.4 'Oxygen';
    text-align: right;
    letter-spacing: 1px;
    text-transform: uppercase;
@@ -382,39 +233,26 @@
 
 .header
 {
-   width: 1440px;
-   height: 74px;
+   padding: 10px 10px;
    border-radius: 0px;
 }
 
 .header__logo
 {
-   height: 26px;
-   top: 3px;
-   font-family: 'Lora';
-   
-   font-weight: 400;
-   font-size: 26px;
-   line-height: 26px;
+   padding: 5px 2px;
+   font: 400 26px/1 'Lora';
    color: #000000;
 }
 
 .header__nav
 {
-   height: 40px;
-   left: 59.94%;
-   right: 0%;
-   top: 0px;
+   padding: 10px 0px;
 }
 
 .nav__element
 {
-   height: 20px;
-   font-family: 'Oxygen';
-   
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 20px;
+   padding: 10px 0px;
+   font: 400 12px/0.7 'Oxygen';
    text-decoration: none;
    letter-spacing: 0.6px;
    color: #000000;
@@ -422,14 +260,12 @@
 
 .big-image
 {
-   height: 534px;
-   width: 1440px;
+   padding: 5px 0px
 }
 
 .main-text
 {
-   width: 1440px;
-   height: 1706px;
+   padding: 30px 10px;
 }
 
 .main-text__text
@@ -437,10 +273,6 @@
    width: 960px;
    left: 240px;
    top: 140px;
-   font-family: 'Oxygen';
-   font-weight: 400;
-   font-size: 24px;
-   line-height: 35px;
+   font: 400 24px/1.1 'Oxygen';
    color: #101315;
-   
 }
